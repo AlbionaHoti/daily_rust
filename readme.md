@@ -1,4 +1,5 @@
-![cover](https://user-images.githubusercontent.com/22985657/196055948-6a0f182f-80d8-480f-b738-8e5a53c1c160.png")
+![banner](https://user-images.githubusercontent.com/22985657/196055948-6a0f182f-80d8-480f-b738-8e5a53c1c160.png)
+
 
 ## 🌱 I'm currently learning
 
