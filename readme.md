@@ -12,7 +12,7 @@ In the future, we can provide a hands-on course on how you can master Rust.
 
 Follow me here to learn rust in bit size collection 
 
-<a href=”https://www.linkedin.com/in/albionahoti/"><img align=”left” src=”https://raw.githubusercontent.com/albionahoti/daily_rust/main/images/linkedin.svg" alt=”icon | LinkedIn” width=”21px”/></a>
+<a href=”https://www.linkedin.com/in/albionahoti/"><img align=”left” src=”https://github.com/albionahoti/daily_rust/main/images/linkedin.svg" alt=”icon | LinkedIn” width=”21px”/></a>
 
 
 <a href=”https://www.twitter.com/albicodes/"><img align=”left” src=”https://raw.githubusercontent.com/albionahoti/daily_rust/main/images/twitter.png" alt=”icon | Twitter" width=”21px”/></a>
