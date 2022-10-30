@@ -14,7 +14,7 @@ In the future, we can provide a hands-on course on how you can master Rust.
 ## Cargo
 
 - To create a new project type `cargo new hello`
-    - Cargo will create a ************hello************ directory with a **config** file names `Cargo.toml` and a ********src******** directory with a ****************[main.rs](http://main.rs)** file.
+    - Cargo will create a **hello** directory with a **config** file names `Cargo.toml` and a **src** directory with a main.rs](http://main.rs)** file.
     - Config files use the toml format which stands for “Tom’s Obvious, Minimal Language”.
         - Cargo.toml is the config file for your project. It has a couple properties
             - name
