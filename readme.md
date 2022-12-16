@@ -14,7 +14,7 @@ In the future, we can provide a hands-on course on how you can master Rust.
 ## Cargo
 
 - To create a new project type `cargo new hello`
-    - Cargo will create a **hello** directory with a **config** file names `Cargo.toml` and a **src** directory with a main.rs](http://main.rs)** file.
+    - Cargo will create a **hello** directory with a **config** file names `Cargo.toml` and a **src** directory with a **main.rs** file.
     - Config files use the toml format which stands for “Tom’s Obvious, Minimal Language”.
         - Cargo.toml is the config file for your project. It has a couple properties
             - name
@@ -27,7 +27,6 @@ In the future, we can provide a hands-on course on how you can master Rust.
         - What is `target/debug/hello`? There’s a target directory where cargo outputs all of it’s built artifacts. This is definitely a dir you want your *version control (git)* to ignore.
             - We can run the binary directory if we want: `target/debug/hello` and we’ll get the output of the project.
 
-
 ## Questions
 
 1. Why is Rust good for systems programming?
@@ -35,3 +34,32 @@ In the future, we can provide a hands-on course on how you can master Rust.
 
 ## Content Creation
 
+## Lessons offline
+
+1. Compiling -- after compiling successfully, rust outputs a binary executable. Compiling and running a program are two different steps. 
+
+
+## Content Creation, Nov 16
+
+FACT: Rust is an ahead-of-time *compiled language*, meaning you can compile a program and give the executable to someone else, and they can run it even without having Rust installed. 
+
+** Features **
+1. The first part of the guessing game program will ask for user input, 
+process that input, and check that the input is in the expected form.
+
+
+- i/o input output library into scope. 
+- The io library comes from the standard library known as std
+
+- `use std::io;` -> by default rust has a set of items defined in the
+standard library that it brings into the scope of every program.
+
+- This set is called `prelude`, and you can bring this type into scope using the `use` statement 
+
+**Associated Funcations**
+The `::` syntax in the `::new` line indicates that `new` is an associated function of the String type. 
+
+An associated function is a function that's implemented on a type, in this case String. This `new` function creates a new, empty string. You'll find a `new` function on many types, because it's common name for a function that makes a new value of some kind.
+
+- the `use std::io` is where we import io from the standard library which comes from the `use` keyword which brings the set `prelude` 
+- the `io::stdin()` will allow us to get users input.
